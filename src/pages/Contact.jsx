@@ -46,7 +46,7 @@ const Contact = () => {
                 <div className="group cursor-pointer" data-aos="fade-up">
                   <p className="text-[9px] font-bold text-blue-600 uppercase tracking-[0.4em] mb-4">Primary Channel</p>
                   <p className="text-2xl md:text-3xl font-serif text-slate-900 flex items-center gap-3">
-                    hello@velaura.com <ArrowUpRight size={18} className="text-slate-200 group-hover:text-blue-600 transition-all" />
+                    vishakhansolution@gmail.com <ArrowUpRight size={18} className="text-slate-200 group-hover:text-blue-600 transition-all" />
                   </p>
                 </div>
 
