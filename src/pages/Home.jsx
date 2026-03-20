@@ -265,7 +265,7 @@ const Home = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
               {[
                 { label: "Consistency", desc: "Predictable quality every time", icon: <ShieldCheck size={20}/> },
-                { label: "Speed", desc: "Under 24h delivery", icon: <Zap size={20}/> }
+                { label: "Speed", desc: "Under 12h delivery", icon: <Zap size={20}/> }
               ].map((stat, i) => (
                 <div key={i} data-aos="fade-up" data-aos-delay={i * 200}>
                   <div className="text-blue-500 mb-3">{stat.icon}</div>

@@ -82,8 +82,8 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="bg-slate-50 p-8 relative overflow-hidden">
               <p className="text-blue-500 text-[9px] font-bold tracking-[0.4em] uppercase mb-6">New Projects</p>
-              <a href="mailto:hello@velaura.com" className="text-blue-500 text-lg font-serif flex items-center gap-2 hover:text-blue-400 transition-colors mb-6">
-                hello@velaura.com <ArrowUpRight size={16} />
+              <a href="mailto:vishakhansolution@gmail.com" className="text-blue-500 text-lg font-serif flex items-center gap-2 hover:text-blue-400 transition-colors mb-6">
+                vishakhansolution@gmail.com <ArrowUpRight size={16} />
               </a>
               <div className="h-px w-full bg-slate-800 mb-6"></div>
               <p className="text-slate-500 text-[10px] leading-relaxed uppercase tracking-widest font-medium">
