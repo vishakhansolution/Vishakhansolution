@@ -10,27 +10,27 @@ const Portfolio = () => {
 
   const projects = useMemo(() => [
   // --- HDR & FLAMBIENT ---
- { id: 1, category: 'HDR Blending', title: 'HDR Blending', location: 'California, US', img: './Hdr-1 (4).jpeg' },
-  { id: 2, category: 'HDR Blending', title: 'HDR Blending', location: 'Miami, US', img: './Hdr-1 (3).jpeg' },
-  { id: 3, category: 'HDR Blending', title: 'HDR Blending', location: 'Austin, TX', img: './Hdr-1 (1).jpeg' },
-  { id: 4, category: 'HDR Blending', title: 'HDR Blending', location: 'New York, NY', img: './Hdr-1 (2).jpeg' },
-  { id: 5, category: 'HDR Blending', title: 'HDR Blending', location: 'Arizona, US', img: './Hdr-1 (5).jpeg' },
+ { id: 1, category: 'HDR Blending', title: 'HDR Blending',  img: './Hdr-1 (4).jpeg' },
+  { id: 2, category: 'HDR Blending', title: 'HDR Blending',  img: './Hdr-1 (3).jpeg' },
+  { id: 3, category: 'HDR Blending', title: 'HDR Blending',  img: './Hdr-1 (1).jpeg' },
+  { id: 4, category: 'HDR Blending', title: 'HDR Blending',  img: './Hdr-1 (2).jpeg' },
+  { id: 5, category: 'HDR Blending', title: 'HDR Blending',  img: './Hdr-1 (5).jpeg' },
 
   // --- DAY TO DUSK ---
-  { id: 6, category: 'Day to Dusk', title: 'Day to Dusk', location: 'NSW, Australia', img: './twlight-2.jpeg' },
-  { id: 7, category: 'Day to Dusk', title: 'Day to Dusk', location: 'Queensland, AU', img: './twlight-1.jpeg' },
-  { id: 8, category: 'Day to Dusk', title: 'Day to Dusk', location: 'Victoria, AU', img: './twlight-3.jpeg' },
-  { id: 9, category: 'Day to Dusk', title: 'Day to Dusk', location: 'Vancouver, CA', img: './twlight.JPEG' },
+  { id: 6, category: 'Day to Dusk', title: 'Day to Dusk',  img: './twlight-2.jpeg' },
+  { id: 7, category: 'Day to Dusk', title: 'Day to Dusk',  img: './twlight-1.jpeg' },
+  { id: 8, category: 'Day to Dusk', title: 'Day to Dusk',  img: './twlight-3.jpeg' },
+  { id: 9, category: 'Day to Dusk', title: 'Day to Dusk',  img: './twlight.JPEG' },
 
   // --- SKY REPLACEMENT ---
-  { id: 10, category: 'Sky Replacement', title: 'Sky Replacement', location: 'London, UK', img: './sky (1).jpeg' },
-  { id: 11, category: 'Sky Replacement', title: 'Sky Replacement', location: 'Manchester, UK', img: './sky (2).jpeg' },
-  { id: 12, category: 'Sky Replacement', title: 'Sky Replacement', location: 'Birmingham, UK', img: './sky (3).jpeg' },
+  { id: 10, category: 'Sky Replacement', title: 'Sky Replacement',  img: './sky (1).jpeg' },
+  { id: 11, category: 'Sky Replacement', title: 'Sky Replacement',  img: './sky (2).jpeg' },
+  { id: 12, category: 'Sky Replacement', title: 'Sky Replacement',  img: './sky (3).jpeg' },
 
   // --- FLASH PROCESSING ---
-  { id: 13, category: 'Flash Processing', title: 'Flash Processing', location: 'Chicago, US', img: './twlight-2.jpeg' },
-  { id: 14, category: 'Flash Processing', title: 'Flash Processing', location: 'Seattle, US', img: './twlight-3.jpeg' },
-  { id: 15, category: 'Flash Processing', title: 'Flash Processing', location: 'Dubai, UAE', img: './twlight-1.jpeg' }
+  { id: 13, category: 'Flash Processing', title: 'Flash Processing',  img: './twlight-2.jpeg' },
+  { id: 14, category: 'Flash Processing', title: 'Flash Processing',  img: './twlight-3.jpeg' },
+  { id: 15, category: 'Flash Processing', title: 'Flash Processing',  img: './twlight-1.jpeg' }
 ], []);
 
   const filteredProjects = filter === 'All' 
@@ -120,9 +120,7 @@ const Portfolio = () => {
               <span className="text-[10px] font-black text-blue-600 tracking-tighter">/ ARCHIVE_0{project.id}</span>
               <div className="h-px w-10 bg-slate-100 group-hover:w-16 group-hover:bg-blue-300 transition-all duration-700"></div>
             </div>
-            <div className="flex items-center gap-2 text-[9px] text-slate-400 uppercase tracking-widest font-black">
-              <Globe size={10} className="text-blue-600" /> {project.location}
-            </div>
+           
           </div>
 
           {/* Title: Same as Category but styled as a Primary Heading */}
