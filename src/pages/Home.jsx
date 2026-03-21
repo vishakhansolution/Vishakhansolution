@@ -5,14 +5,14 @@ import { LogoLoop } from '../components/LogoLoop';
 
 const Home = () => {
   const services = [
-    { title: "HDR Blending", img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80" },
-    { title: "Flambient Editing",  img: "https://images.unsplash.com/photo-1600607687940-4e524cb35a3a?auto=format&fit=crop&q=80" },
-    { title: "Day to Dusk", img: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80" },
-    { title: "Object Removal", img: "https://images.unsplash.com/photo-1600566753190-17f0bb2a6c3e?auto=format&fit=crop&q=80" },
-    { title: "Sky Replacement",  img: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80" },
-    { title: "Twilight Enhancement",  img: "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&q=80" },
-    { title: "Grass Replacement",  img: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&q=80" },
-    { title: "Flash Processing",  img: "https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&q=80" },
+    { title: "HDR Blending", img: "./Hdr.JPEG" },
+    { title: "Flambient Editing",  img: "flash-1 (1).jpeg" },
+    { title: "Day to Dusk", img: "twlight-1.jpeg" },
+    { title: "Object Removal", img: "" },
+    { title: "Sky Replacement",  img: "" },
+    { title: "Twilight Enhancement",  img: "twlight-3.jpeg" },
+    { title: "Grass Replacement",  img: "" },
+    { title: "Flash Processing",  img: "flash-1 (2).jpeg" },
   ];
 
   const partnerLogos = [

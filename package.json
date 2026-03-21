@@ -24,6 +24,7 @@
     "face-api.js": "^0.22.2",
     "framer-motion": "^12.23.24",
     "gsap": "^3.13.0",
+    "i": "^0.3.7",
     "lucide-react": "^0.554.0",
     "ogl": "^1.0.11",
     "postprocessing": "^6.38.2",
