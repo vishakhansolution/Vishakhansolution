@@ -228,7 +228,7 @@ const Home = () => {
 </section>
 
 {/* --- LOGO LOOP SECTION --- */}
-<section className="py-20 bg-white border-t border-slate-50 overflow-hidden">
+{/* <section className="py-20 bg-white border-t border-slate-50 overflow-hidden">
   <div className="max-w-7xl mx-auto px-6 text-center">
     <p className="text-[9px] font-black tracking-[0.5em] text-slate-300 uppercase mb-12">
       Trusted by major franchises in
@@ -242,7 +242,7 @@ const Home = () => {
           - fadeOut: true (Enables the gradient edges from your CSS)
           - pauseOnHover: true (Good for UX)
       */}
-      <LogoLoop 
+      {/* <LogoLoop 
         logos={partnerLogos}
         speed={40} 
         logoHeight={32}
@@ -253,7 +253,7 @@ const Home = () => {
     </div>
   </div>
 </section>
-
+ */} 
 
 
       {/* --- GLOBAL TRUST SECTION --- */}
