@@ -21,14 +21,14 @@ const Services = () => {
       title: "HDR & Flambient Editing",
       desc: "Our signature service. We merge multiple exposures to create a single, perfectly balanced image that mimics how the human eye perceives light—retaining natural highlights and deep shadows.",
       features: ["Manual Window Masking", "Color Cast Correction", "Balanced Flash/Ambient Blending"],
-      img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80"
+      img: "./Hdr-1 (3).jpeg"
     },
     {
       id: "02",
       title: "Day to Dusk Conversion",
       desc: "Transform standard daylight photos into warm, atmospheric twilight scenes. This process increases property appeal and engagement, making the home feel cozy and inviting.",
       features: ["Sky Replacement", "Interior Lighting Glow", "Exterior Lamp Activation"],
-      img: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80"
+      img: "./twlight-1.jpeg"
     },
     {
       id: "03",
@@ -37,13 +37,19 @@ const Services = () => {
       features: ["Driveway Cleaning", "Cable/Wire Removal", "Furniture Removal"],
       img: "https://images.unsplash.com/photo-1600607687940-4e524cb35a3a?auto=format&fit=crop&q=80"
     },
-    {
-      id: "04",
-      title: "Specialty Environments",
-      desc: "Enhancing the exterior environment to provide a lush, premium look. We replace dull skies and dead grass with vibrant, high-resolution textures.",
-      features: ["Realistic Sky Replacement", "Grass Enhancement", "Pool Water Correction"],
-      img: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&q=80"
-    }
+   {
+  id: "04",
+  title: "Flash & Interior", 
+  desc: "Utilizing advanced Flash/Ambient blending to reveal the true architectural character of your property. We synchronize flash exposures with natural light to eliminate shadows and restore authentic material colors.",
+  features: [
+    "Flash/Ambient Luminescence", 
+    "Surgical Shadow Removal", 
+    "Material Color Calibration",
+    "Pool & Sky Harmonization"
+  ],
+  // This image shows a high-end exterior with perfect lighting
+  img: "./flash-1 (3).jpeg" 
+}
   ];
 
   return (

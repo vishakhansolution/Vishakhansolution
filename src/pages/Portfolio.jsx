@@ -1,21 +1,37 @@
-import React, { useState, useEffect } from 'react';
-import { ArrowRight, MousePointer2, Globe } from 'lucide-react';
+import React, { useState, useEffect, useMemo } from 'react'; 
+import { ArrowRight, MousePointer2, Globe, Plus, Maximize2, ArrowUpRight } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const Portfolio = () => {
   const [filter, setFilter] = useState('All');
 
-  const categories = ['All', 'HDR Blending', 'Day to Dusk', 'Object Removal', 'Virtual Staging'];
+  const categories = ['All', 'HDR Blending', 'Day to Dusk', 'Object Removal','Flash Processing'];
 
-  const projects = [
-    { id: 1, category: 'HDR Blending', title: 'Malibu Residential', location: 'California, US', img: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80' },
-    { id: 2, category: 'Day to Dusk', title: 'Sydney Waterfront', location: 'NSW, Australia', img: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80' },
-    { id: 3, category: 'Object Removal', title: 'London Executive', location: 'London, UK', img: 'https://images.unsplash.com/photo-1600607687940-4e524cb35a3a?auto=format&fit=crop&q=80' },
-    { id: 4, category: 'HDR Blending', title: 'Florida Coastal', location: 'Miami, US', img: 'https://images.unsplash.com/photo-1600566753190-17f0bb2a6c3e?auto=format&fit=crop&q=80' },
-    { id: 5, category: 'Virtual Staging', title: 'Penthouse View', location: 'Toronto, Canada', img: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80' },
-    { id: 6, category: 'Day to Dusk', title: 'Sunset Manor', location: 'Queensland, AU', img: 'https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?auto=format&fit=crop&q=80' },
-  ];
+  const projects = useMemo(() => [
+  // --- HDR & FLAMBIENT ---
+  { id: 1, category: 'HDR Blending', title: 'Malibu Residential', location: 'California, US', img: './Hdr-1 (4).jpeg' },
+  { id: 2, category: 'HDR Blending', title: 'Florida Coastal', location: 'Miami, US', img: './Hdr-1 (3).jpeg' },
+  { id: 3, category: 'HDR Blending', title: 'Modern Estate', location: 'Austin, TX', img: './Hdr-1 (1).jpeg' },
+  { id: 4, category: 'HDR Blending', title: 'Luxury Penthouse', location: 'New York, NY', img: './Hdr-1 (2).jpeg' },
+  { id: 5, category: 'HDR Blending', title: 'Canyon Villa', location: 'Arizona, US', img: './Hdr-1 (5).jpeg' },
+
+  // --- DAY TO DUSK ---
+  { id: 6, category: 'Day to Dusk', title: 'Sydney Waterfront', location: 'NSW, Australia', img: './twlight-2.jpeg' },
+  { id: 7, category: 'Day to Dusk', title: 'Sunset Manor', location: 'Queensland, AU', img: './twlight-1.jpeg' },
+  { id: 8, category: 'Day to Dusk', title: 'Harbor View', location: 'Victoria, AU', img: './twlight-3.jpeg' },
+  { id: 9, category: 'Day to Dusk', title: 'Alpine Twilight', location: 'Vancouver, CA', img: './twlight.JPEG' },
+
+  // --- OBJECT REMOVAL ---
+  { id: 10, category: 'Object Removal', title: 'London Executive', location: 'London, UK', img: './London-1 (1).jpeg' },
+  { id: 11, category: 'Object Removal', title: 'Manchester Suite', location: 'Manchester, UK', img: './London-1 (2).jpeg' },
+  { id: 12, category: 'Object Removal', title: 'Clean Slate Studio', location: 'Birmingham, UK', img: './London-1 (3).jpeg' },
+
+  // --- FLASH PROCESSING ---
+  { id: 13, category: 'Flash Processing', title: 'Interior Precision', location: 'Chicago, US', img: './Flash-1 (1).jpeg' },
+  { id: 14, category: 'Flash Processing', title: 'Architectural Detail', location: 'Seattle, US', img: './Flash-1 (2).jpeg' },
+  { id: 15, category: 'Flash Processing', title: 'The Glass House', location: 'Dubai, UAE', img: './Flash-1 (3).jpeg' },
+], []);
 
   const filteredProjects = filter === 'All' 
     ? projects 
