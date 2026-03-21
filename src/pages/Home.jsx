@@ -9,7 +9,7 @@ const Home = () => {
     { title: "Flambient Editing",  img: "flash-1 (1).jpeg" },
     { title: "Day to Dusk", img: "twlight-1.jpeg" },
     { title: "Object Removal", img: "" },
-    { title: "Sky Replacement",  img: "" },
+    { title: "Sky Replacement",  img: "sky (4).jpeg" },
     { title: "Twilight Enhancement",  img: "twlight-3.jpeg" },
     { title: "Grass Replacement",  img: "" },
     { title: "Flash Processing",  img: "flash-1 (2).jpeg" },
