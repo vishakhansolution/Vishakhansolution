@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  
+  # 1. BASE CONFIG
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+
+  # 2. THE REFRESH FIX (CRITICAL)
+  # If the requested path is NOT a physical file (-f)
+  # And the requested path is NOT a physical directory (-d)
+  # Then redirect all traffic to index.html so React Router can take over
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+
+  # 3. FORCE HTTPS & WWW (SEO BEST PRACTICE)
+  RewriteCond %{HTTPS} off
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
