@@ -10,12 +10,11 @@ const Portfolio = () => {
 
   const projects = useMemo(() => [
   // --- HDR & FLAMBIENT ---
- { id: 1, category: 'HDR Blending', title: 'HDR Blending',  img: './Hsr-1 (4).JPEG' },
-  { id: 2, category: 'HDR Blending', title: 'HDR Blending',  img: './Hdr-1 (3).JPEG' },
-  { id: 3, category: 'HDR Blending', title: 'HDR Blending',  img: './Hdr-1 (7).JPEG' },
-  { id: 4, category: 'HDR Blending', title: 'HDR Blending',  img: './Hdr-1 (9).JPEG' },
-  { id: 5, category: 'HDR Blending', title: 'HDR Blending',  img: './Hdr-1 (5).JPEG' },
-
+ { id: 1, category: 'HDR Blending', title: 'HDR Blending', img: './HDR (4).jpeg' },
+  { id: 2, category: 'HDR Blending', title: 'HDR Blending', img: './HDR (3).jpeg' },
+  { id: 3, category: 'HDR Blending', title: 'HDR Blending', img: './HDR (7).jpeg' },
+  { id: 4, category: 'HDR Blending', title: 'HDR Blending', img: './HDR (6).jpeg' },
+  { id: 5, category: 'HDR Blending', title: 'HDR Blending', img: './HDR (5).jpeg' },
   // --- DAY TO DUSK ---
   { id: 6, category: 'Day to Dusk', title: 'Day to Dusk',  img: './twlight-2.jpeg' },
   { id: 7, category: 'Day to Dusk', title: 'Day to Dusk',  img: './twlight-1.jpeg' },

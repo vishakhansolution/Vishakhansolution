@@ -5,7 +5,7 @@ import { LogoLoop } from '../components/LogoLoop';
 
 const Home = () => {
   const services = [
-    { title: "HDR Blending", img: "./Hdr.JPEG" },
+    { title: "HDR Blending", img: "./HDR (1).jpeg" },
     { title: "Flambient Editing",  img: "flash-1 (1).jpeg" },
     { title: "Day to Dusk", img: "twlight-1.jpeg" },
     { title: "Object Removal", img: "" },
