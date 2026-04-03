@@ -21,7 +21,7 @@ const Services = () => {
       title: "HDR & Flambient Editing",
       desc: "Our signature service. We merge multiple exposures to create a single, perfectly balanced image that mimics how the human eye perceives light—retaining natural highlights and deep shadows.",
       features: ["Manual Window Masking", "Color Cast Correction", "Balanced Flash/Ambient Blending"],
-      img: "./Hdr-1 (3).jpeg"
+      img: "./Hdr-1 (3).JPEG"
     },
     {
       id: "02",
